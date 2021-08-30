@@ -1,1 +1,1 @@
-git status --ignored
+git check-ignore **/*
