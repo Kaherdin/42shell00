@@ -1,1 +1,1 @@
-find *~ #*# -exec rm -rf {} \;
+find *~ #*# -delete
