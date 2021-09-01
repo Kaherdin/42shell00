@@ -1,22 +1,14 @@
 # 42shell00
-ex00: OK 
-ex01: OK 
-ex02: KO 
-ex03: OK 
-ex04: OK 
-ex05: OK 
-ex06: OK 
-ex07: OK 
-ex08: KO 
-ex09: KO
+ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK | ex06: OK | ex07: OK | ex08: KO | ex09: KO
+
 
 ```
 = Host-specific information ====================================================
 $> hostname; uname -msr
-c2r6s5.42lausanne.ch
+c1r5s8.42lausanne.ch
 Darwin 19.6.0 x86_64
 $> date
-Wed Sep  1 12:05:15 CEST 2021
+Wed Sep  1 16:09:34 CEST 2021
 $> gcc --version
 Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/c++/4.2.1
 Apple clang version 12.0.0 (clang-1200.0.32.28)
@@ -31,10 +23,11 @@ InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: git@vogsphere.42lausanne.ch:vogsphere/intra-uuid-9ae143db-b6c2-4431-900c-d80674281080-3757833
+Repository URL: git@vogsphere.42lausanne.ch:vogsphere/intra-uuid-bbf1e584-eb7e-4a45-b3d6-dbc2c6cd2932-3758790
 
 = Git history ==================================================================
-$> git -C /tmp/tmpmxnnj8zo/user log --pretty='%H - %an, %ad : %s'
+$> git -C /tmp/tmp1jkjqeqn/user log --pretty='%H - %an, %ad : %s'
+bd27525c55d10489dfa180f3a8ee6133e590a201 - Aurelien Borst, Wed Sep 1 14:07:26 2021 +0200 : Correction chmod ex02 et refresh klist
 3f6d0cacdc09941a04b82c9e156b7ea14840f268 - Aurelien Borst, Wed Sep 1 00:07:15 2021 +0200 : ex09
 7360cb3620655d11d700167ecc7788db528c6c80 - Aurelien Borst, Tue Aug 31 23:19:14 2021 +0200 : correction
 ef9db483a568656f6eba93490de4ca6fa6d12660 - Aurelien Borst, Tue Aug 31 15:38:46 2021 +0200 : Correction
@@ -56,60 +49,60 @@ fad8195422355331a26cadd46c4f0b8aa92dea23 - Aurelien Borst, Mon Aug 30 19:48:19 2
 3c610b5104e11ee056bf7dd4e1e54da8826cb302 - Aurelien Borst, Mon Aug 30 18:44:48 2021 +0200 : 1er commit
  
 = Collected files ==========================================
-$> ls -lAR /tmp/tmpmxnnj8zo/user
+$> ls -lAR /tmp/tmp1jkjqeqn/user
 total 24
--rw-r--r--  1 root  wheel    29 Sep  1 12:05 .gitignore
--rw-r--r--  1 root  wheel  6837 Sep  1 12:05 __GIT_HISTORY
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex00
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex01
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex02
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex03
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex04
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex05
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex06
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex07
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex08
-drwxr-xr-x  3 root  wheel    96 Sep  1 12:05 ex09
+-rw-r--r--  1 root  wheel    29 Sep  1 16:09 .gitignore
+-rw-r--r--  1 root  wheel  7141 Sep  1 16:09 __GIT_HISTORY
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex00
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex01
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex02
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex03
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex04
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex05
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex06
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex07
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex08
+drwxr-xr-x  3 root  wheel    96 Sep  1 16:09 ex09
 
-/tmp/tmpmxnnj8zo/user/ex00:
+/tmp/tmp1jkjqeqn/user/ex00:
 total 8
--rw-r--r--  1 root  wheel  2 Sep  1 12:05 z
+-rw-r--r--  1 root  wheel  2 Sep  1 16:09 z
 
-/tmp/tmpmxnnj8zo/user/ex01:
+/tmp/tmp1jkjqeqn/user/ex01:
 total 8
--rw-r--r--  1 root  wheel  2048 Sep  1 12:05 testShell00.tar
+-rw-r--r--  1 root  wheel  2048 Sep  1 16:09 testShell00.tar
 
-/tmp/tmpmxnnj8zo/user/ex02:
+/tmp/tmp1jkjqeqn/user/ex02:
 total 16
--rw-r--r--  1 root  wheel  6144 Sep  1 12:05 exo2.tar
+-rw-r--r--  1 root  wheel  6144 Sep  1 16:09 exo2.tar
 
-/tmp/tmpmxnnj8zo/user/ex03:
+/tmp/tmp1jkjqeqn/user/ex03:
 total 8
--rw-r--r--  1 root  wheel  236 Sep  1 12:05 klist.txt
+-rw-r--r--  1 root  wheel  236 Sep  1 16:09 klist.txt
 
-/tmp/tmpmxnnj8zo/user/ex04:
+/tmp/tmp1jkjqeqn/user/ex04:
 total 8
--rw-r--r--  1 root  wheel  9 Sep  1 12:05 midLS
+-rw-r--r--  1 root  wheel  9 Sep  1 16:09 midLS
 
-/tmp/tmpmxnnj8zo/user/ex05:
+/tmp/tmp1jkjqeqn/user/ex05:
 total 8
--rw-r--r--  1 root  wheel  23 Sep  1 12:05 git_commit.sh
+-rw-r--r--  1 root  wheel  23 Sep  1 16:09 git_commit.sh
 
-/tmp/tmpmxnnj8zo/user/ex06:
+/tmp/tmp1jkjqeqn/user/ex06:
 total 8
--rw-r--r--  1 root  wheel  43 Sep  1 12:05 git_ignore.sh
+-rw-r--r--  1 root  wheel  43 Sep  1 16:09 git_ignore.sh
 
-/tmp/tmpmxnnj8zo/user/ex07:
+/tmp/tmp1jkjqeqn/user/ex07:
 total 8
--rw-r--r--  1 root  wheel  538 Sep  1 12:05 b
+-rw-r--r--  1 root  wheel  538 Sep  1 16:09 b
 
-/tmp/tmpmxnnj8zo/user/ex08:
+/tmp/tmp1jkjqeqn/user/ex08:
 total 8
--rw-r--r--  1 root  wheel  19 Sep  1 12:05 clean
+-rw-r--r--  1 root  wheel  19 Sep  1 16:09 clean
 
-/tmp/tmpmxnnj8zo/user/ex09:
+/tmp/tmp1jkjqeqn/user/ex09:
 total 8
--rw-r--r--  1 root  wheel  20 Sep  1 12:05 ft_magic
+-rw-r--r--  1 root  wheel  20 Sep  1 16:09 ft_magic
  
 = ex00 =========================================================================
 $> diff -U 3 z ref_output | cat -e
@@ -120,7 +113,7 @@ Grade: 5
 
 = ex01 =========================================================================
 total 8
--rw-r--r--  1 deepthought  deepthought  2048 Sep  1 10:05 testShell00.tar
+-rw-r--r--  1 deepthought  deepthought  2048 Sep  1 14:09 testShell00.tar
 
 
 -r--r-xr-x  1 deepthought  deepthought  40 Jun  1 21:42 testShell00
@@ -130,16 +123,66 @@ Grade: 5
 
 = ex02 =========================================================================
 total 16
--rw-r--r--  1 deepthought  deepthought  6144 Sep  1 10:05 exo2.tar
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
 
 
+drwx--xr-x  2 deepthought  deepthought  64 Jun  1 18:47 test0
 
-KO test0
-Grade: 0
+
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
+
+
+-rwx--xr--  1 deepthought  deepthought  4 Jun  1 19:46 test1
+
+
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
+
+
+dr-x---r--  2 deepthought  deepthought  64 Jun  1 20:45 test2
+
+
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
+
+
+-r-----r--  2 deepthought  deepthought  1 Jun  1 21:44 test3
+
+
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
+
+
+-rw-r----x  1 deepthought  deepthought  2 Jun  1 21:43 test4
+
+
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
+
+
+-r-----r--  2 deepthought  deepthought  1 Jun  1 21:44 test5
+
+
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
+
+
+lrwxr-xr-x  1 deepthought  deepthought  5 Jun  1 20:20 test6 -> test0
+
+
+total 16
+-rw-r--r--  1 deepthought  deepthought  6144 Sep  1 14:09 exo2.tar
+
+
+8
+
+
+Grade: 10
 
 = ex03 =========================================================================
 total 8
--rw-r--r--  1 deepthought  deepthought  236 Sep  1 10:05 klist.txt
+-rw-r--r--  1 deepthought  deepthought  236 Sep  1 14:09 klist.txt
 
 
         Principal: aborst@42LAUSANNE.CH
@@ -149,8 +192,8 @@ Grade: 10
 
 = ex04 =========================================================================
 total 16
--rw-r--r--  1 deepthought  deepthought    9 Sep  1 10:05 midLS
--rw-r--r--  1 deepthought  deepthought  536 Sep  1 10:05 test_midls.sh
+-rw-r--r--  1 deepthought  deepthought    9 Sep  1 14:09 midLS
+-rw-r--r--  1 deepthought  deepthought  536 Sep  1 14:09 test_midls.sh
 
 
 $> sh ./test_midls.sh
@@ -165,16 +208,16 @@ Grade: 10
 
 = ex05 =========================================================================
 total 24
--rw-r--r--  1 deepthought  deepthought   23 Sep  1 10:05 git_commit.sh
--rw-r--r--  1 deepthought  deepthought  266 Sep  1 10:05 start.sh
--rw-r--r--  1 deepthought  deepthought   27 Sep  1 10:05 test_git_commit.sh
+-rw-r--r--  1 deepthought  deepthought   23 Sep  1 14:09 git_commit.sh
+-rw-r--r--  1 deepthought  deepthought  266 Sep  1 14:09 start.sh
+-rw-r--r--  1 deepthought  deepthought   27 Sep  1 14:09 test_git_commit.sh
 
 
 warning: templates not found in /usr/share/git-core/templates
-Initialized empty Git repository in /tmp/qfph8b74/.git/
+Initialized empty Git repository in /tmp/nd3wygub/.git/
 
-[master (root-commit) 205d37c] commit toto.dylib
- Committer: Deepthought <deepthought@c2r6s5.42lausanne.ch>
+[master (root-commit) ec9bedc] commit toto.dylib
+ Committer: Deepthought <deepthought@c1r5s8.42lausanne.ch>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -189,8 +232,9 @@ After doing this, you may fix the identity used for this commit with:
 
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 toto.dylib
-[master 31d9684] commit notice_me_senpai
- Committer: Deepthought <deepthought@c2r6s5.42lausanne.ch>
+
+[master 0ff4cdb] commit notice_me_senpai
+ Committer: Deepthought <deepthought@c1r5s8.42lausanne.ch>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -206,8 +250,8 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 notice_me_senpai
 
-[master f9da7b9] commit top_secret
- Committer: Deepthought <deepthought@c2r6s5.42lausanne.ch>
+[master 392aa43] commit top_secret
+ Committer: Deepthought <deepthought@c1r5s8.42lausanne.ch>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -223,8 +267,8 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 top_secret
 
-[master 81cd79b] commit yoyo.test
- Committer: Deepthought <deepthought@c2r6s5.42lausanne.ch>
+[master ab484de] commit yoyo.test
+ Committer: Deepthought <deepthought@c1r5s8.42lausanne.ch>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -239,8 +283,9 @@ After doing this, you may fix the identity used for this commit with:
 
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 yoyo.test
-[master d6ae6a3] commit resultat_selection_piscine
- Committer: Deepthought <deepthought@c2r6s5.42lausanne.ch>
+
+[master c4528f6] commit resultat_selection_piscine
+ Committer: Deepthought <deepthought@c1r5s8.42lausanne.ch>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -256,8 +301,8 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 resultat_selection_piscine
 
-[master b4db319] commit test.test.test
- Committer: Deepthought <deepthought@c2r6s5.42lausanne.ch>
+[master 1d97d38] commit test.test.test
+ Committer: Deepthought <deepthought@c1r5s8.42lausanne.ch>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -284,13 +329,13 @@ Grade: 10
 = ex06 =========================================================================
 
 total 24
--rw-r--r--  1 deepthought  deepthought   43 Sep  1 10:05 git_ignore.sh
--rw-r--r--  1 deepthought  deepthought  581 Sep  1 10:05 start.sh
--rw-r--r--  1 deepthought  deepthought   51 Sep  1 10:05 test_git_ignore.sh
+-rw-r--r--  1 deepthought  deepthought   43 Sep  1 14:09 git_ignore.sh
+-rw-r--r--  1 deepthought  deepthought  585 Sep  1 14:09 start.sh
+-rw-r--r--  1 deepthought  deepthought   51 Sep  1 14:09 test_git_ignore.sh
 
 
 warning: templates not found in /usr/share/git-core/templates
-Initialized empty Git repository in /tmp/21zbkbat/.git/
+Initialized empty Git repository in /tmp/slpwx7xi/.git/
 
 
 $> diff -U 3 user_output test_output | cat -e
@@ -309,13 +354,12 @@ Grade: 10
 
 = ex08 =========================================================================
 total 16
--rw-r--r--  1 deepthought  deepthought   19 Sep  1 10:05 clean
--rwxr-xr-x  1 deepthought  deepthought  859 Sep  1 10:05 test_clean.sh
+-rw-r--r--  1 deepthought  deepthought   19 Sep  1 14:09 clean
+-rwxr-xr-x  1 deepthought  deepthought  859 Sep  1 14:09 test_clean.sh
 
 
 $> sh ./test_clean.sh
 find: *~: No such file or directory
-
 KO
 
 
@@ -326,15 +370,16 @@ Grade: 0
 
 = ex09 =========================================================================
 total 32
--rwxr-xr-x  1 deepthought  deepthought   21 Sep  1 10:05 correct_magic
--rw-r--r--  1 deepthought  deepthought   20 Sep  1 10:05 ft_magic
--rw-r--r--  1 deepthought  deepthought   46 Sep  1 10:05 test42
--rwxr-xr-x  1 deepthought  deepthought  711 Sep  1 10:05 test_magic.sh
+-rwxr-xr-x  1 deepthought  deepthought   21 Sep  1 14:09 correct_magic
+-rw-r--r--  1 deepthought  deepthought   20 Sep  1 14:09 ft_magic
+-rw-r--r--  1 deepthought  deepthought   46 Sep  1 14:09 test42
+-rwxr-xr-x  1 deepthought  deepthought  711 Sep  1 14:09 test_magic.sh
 
 
 $> sh ./test_magic.sh
 -n testing ft_magic 1/2 ...
 /usr/share/file/magic, 0: Warning: using regular magic file `correct_magic'
+
 /usr/share/file/magic, 0: Warning: using regular magic file `./ft_magic'
 < our file, > your file
 1c1
@@ -356,5 +401,5 @@ $> sh ./test_magic.sh
 
 Grade: 0
 
-= Final grade: 10 ==============================================================
+= Final grade: 70 ==============================================================
 ```
